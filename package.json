@@ -12,6 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.11.19",
+    "eslint": "^8.56.0",
     "typescript": "^5.3.3"
   },
   "dependencies": {
