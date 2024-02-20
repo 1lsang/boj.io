@@ -1,7 +1,7 @@
 {
   "name": "boj.io",
   "version": "1.0.0",
-  "description": "",
+  "description": "Baekjoon Online Judge 문제 풀이 검증 자동화 CLI",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
