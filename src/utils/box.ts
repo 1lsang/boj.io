@@ -1,7 +1,7 @@
 export default function box(input: string, width?: number) {
   const maxLength = Math.max(
     ...input.split('\n').map((line) => line.length),
-    width || 32,
+    Math.max(width ?? 0, 24),
   );
 
   const res = input
