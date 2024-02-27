@@ -2,13 +2,16 @@
   "name": "boj.io",
   "version": "1.0.0",
   "description": "Baekjoon Online Judge 문제 풀이 검증 자동화 CLI",
-  "main": "index.js",
+  "main": "build/index.js",
+  "bin": {
+    "boj": "./build/index.js"
+  },
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["boj", "baekjoon", "online", "judge", "problem", "solving", "ps"],
+  "author": "1lsang",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.11.19",
