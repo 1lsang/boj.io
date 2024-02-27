@@ -43,7 +43,9 @@ export default async function test(source: string, options: TestOptions) {
 
     try {
       console.time(`tc-${i}`);
-      eval(newCode);
+      (() => {
+        eval(newCode);
+      })();
       console.timeEnd(`tc-${i}`);
     } catch (e) {
       console.log = originalLog;
