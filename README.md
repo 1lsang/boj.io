@@ -1,5 +1,7 @@
 # BOJ.IO(Beta)
 
+[![npm version](https://badge.fury.io/js/boj.io.svg)](https://badge.fury.io/js/boj.io)
+
 Baekjoon Online Judge 문제 풀이 검증 자동화 CLI
 
 ## Description
