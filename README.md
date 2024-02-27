@@ -68,7 +68,8 @@ $ boj <source> --problem-number <problemNumber>
   - 파일명은 <문제번호>.js 형식이어야 합니다. (예: 1000.js)
   - 해당 형식의 파일명이 아닐 경우, `-pn` 혹은 `--problem-number` 옵션을 통해 문제 번호를 입력할 수 있습니다.
   
-## 입출력 코드 예시
+## 실행 예시
+![execution](./assets/execution.gif)
 
 
 ## 지원 예정 기능
